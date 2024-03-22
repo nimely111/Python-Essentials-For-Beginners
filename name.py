@@ -2,7 +2,7 @@
 a = 28        #int
 b = 1.5       #float
 c = "Hello!"  #str
-d = TRUE      #bool
+d = True      #bool
 e = None      #NoneType
 
 # using variable with a build-in function to see our output
