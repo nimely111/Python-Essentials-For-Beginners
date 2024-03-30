@@ -10,3 +10,4 @@ s.add(3)
 print(s) 
 
 s.remove(2)
+print(f"The set has {len(s)} elements.")
