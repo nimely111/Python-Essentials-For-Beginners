@@ -1,3 +1,3 @@
 # understanding python dictionary
 location = {'John': '12 Street Sinkor', 'Paul': 'Freeport'}
-print(location)
+print(location['John'])
