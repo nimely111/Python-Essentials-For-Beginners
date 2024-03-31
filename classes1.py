@@ -18,3 +18,5 @@ class Flight():
 flight = Flight(3)
 
 people = ["JOhn", "Esther", "Peter", "Mary"]
+for person in people:
+    success = flight.add_passenger(person)
