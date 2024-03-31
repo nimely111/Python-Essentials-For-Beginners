@@ -4,8 +4,8 @@ people = [
     {"name": "Anthony", "location": "Sinkor"}
 ]
 
-def sort_people(person):
-        return person['location']
+# def sort_people(person):
+#         return person['location']
 
-people.sort(key=sort_people)
+people.sort(key= lambda person: person['name'])
 print(people)
