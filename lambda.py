@@ -5,6 +5,7 @@ people = [
 ]
 
 def sort_people(person):
-        return person['name']
+        return person['location']
+
 people.sort(key=sort_people)
 print(people)
