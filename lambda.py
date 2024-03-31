@@ -4,4 +4,8 @@ people = [
     {"name": "Anthony", "location": "Sinkor"}
 ]
 
-print(people[0])
+def sort_people():
+    for person in people:
+        return person['name']
+        people.sort(key=sort_people)
+print(people)
