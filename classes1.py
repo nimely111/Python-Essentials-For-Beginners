@@ -5,6 +5,6 @@ class Flight():
     
     # add passenger method
     def add_passenger(self, name):
-        
+        self.passengers.append(name)
 
 flight = Flight(3)
