@@ -10,6 +10,6 @@ class Flight():
         # we can't keep adding passengers to the flight without known the capacity of the plane, like taking into consideration, if there is any open seat available. We have to create a new function to determine that for us
         # open seats method
     def open_seats(self):
-        return self.capacity - self.passengers
+        return self.capacity - len(self.passengers)
 
 flight = Flight(3)
