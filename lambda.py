@@ -3,3 +3,5 @@ people = [
     {"name": "Mary", "location": "Freeport"},
     {"name": "Anthony", "location": "Sinkor"}
 ]
+
+print(people[0])
